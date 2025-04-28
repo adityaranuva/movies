@@ -1,0 +1,24 @@
+{
+  "name": "movies-api",
+  "version": "1.0.0",
+  "description": "A production-ready API for movie and rating data built with Node.js and SQLite.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": ["movies", "API", "Node.js", "SQLite", "Express"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.0.0",
+    "supertest": "^6.3.0"
+  }
+}
