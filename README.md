@@ -23,11 +23,11 @@ Installation
 Clone the repository:
 
 bash
-git clone <repository-url>
-Navigate to the project directory:
+git clone https://github.com/adityaranuva/movies.git
 
+Navigate to the project directory:
 bash
-cd <project-folder>
+cd movies
 Install dependencies:
 
 bash
@@ -38,13 +38,7 @@ movies.db (SQLite database for movies)
 
 ratings.db (SQLite database for ratings)
 
-Create a .env file in the root directory with the following content:
 
-env
-DB_PATH_MOVIES=./db/movies.db
-DB_PATH_RATINGS=./db/ratings.db
-PORT=3000
-Usage
 Run in Development Mode
 Start the server with hot reloading:
 
@@ -149,14 +143,4 @@ Edge Cases:
 
 Invalid id: /movies/invalidId (should return 404).
 
-Database Exploration:
 
-Navigate to the db/ directory:
-
-bash
-cd db/
-sqlite3 movies.db
-Run queries like:
-
-sql
-SELECT * FROM movies LIMIT 10;
