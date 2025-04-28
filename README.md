@@ -22,15 +22,12 @@ SQLite3 CLI (optional for database exploration)
 Installation
 Clone the repository:
 
-bash
 git clone https://github.com/adityaranuva/movies.git
 
 Navigate to the project directory:
-bash
 cd movies
 Install dependencies:
 
-bash
 npm install
 Ensure the following files exist in the db/ folder:
 
@@ -42,13 +39,11 @@ ratings.db (SQLite database for ratings)
 Run in Development Mode
 Start the server with hot reloading:
 
-bash
 npm run dev
-Run in Production Mode
-Start the server:
 
-bash
+Start the server:
 npm start
+
 The API will be available at http://localhost:3000.
 
 API Endpoints
